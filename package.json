@@ -9,8 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.0.4",
+    "vue": "^3.4.36",
     "tailwindcss": "^4.2.2",
+    "vite": "^8.0.7",
+    "@vitejs/plugin-vue": "^6.0.5",
     "@tailwindcss/vite": "^4.2.2",
     "vitest": "^4.1.3"
   }
