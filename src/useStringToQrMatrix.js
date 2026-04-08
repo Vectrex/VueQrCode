@@ -8,7 +8,6 @@ export function useStringToQrMatrix (text, options = {}) {
             ...defaultOptions,
             ...unref(options),
         }
-
         return stringToQrMatrix(resolvedText, resolvedOptions)
     })
 
