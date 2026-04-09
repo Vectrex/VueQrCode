@@ -1,10 +1,10 @@
 {
-  "name": "vue-qrcode-component",
+  "name": "@vectrex/vue-qr-code",
   "files": ["dist"],
   "exports": {
     ".": {
-      "import": "./dist/vue-qrcode-component.es.js",
-      "require": "./dist/vue-qrcode-component.umd.js"
+      "import": "./dist/vue-qr-code.es.js",
+      "require": "./dist/vue-qr-code.umd.js"
     },
     "./dist/*": "./dist/*"
   },

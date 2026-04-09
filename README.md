@@ -12,11 +12,11 @@ A basic Vue 3 component for rendering QR codes as SVGs. The QR code generation w
 
 ## Installation
 
-`npm install -d vue-qrcode-component`
+`npm install -d @vectrex/vue-qrcode`
 and in your components
 
 ```javascript
-@import QrCode from 'vue-qrcode-component'
+@import QrCode from '@vectrex/vue-qrcode'
 ```
 
 ## Properties and Attributes
