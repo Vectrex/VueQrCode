@@ -41,10 +41,7 @@ const defaultOptions = {
   maxVersion: 40,
   mask: -1,
   boostEcl: true,
-  ecl: 'M',
-  gutter: 4,
-  moduleSize: 10,
-  svgAsPath: true
+  ecl: 'M'
 }
 
 const isNumeric = text => /^[0-9]*$/.test(text)
