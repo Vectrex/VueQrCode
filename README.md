@@ -12,6 +12,12 @@ A basic Vue component for rendering QR codes as SVGs. The QR code generation was
 
 ## Installation
 
+`npm install -d vue-qrcode-component`
+and in your components
+
+```javascript
+@import QrCode from 'vue-qrcode-component'```
+
 ## Properties and Attributes
 - `text` - The string to encode into the QR code, required
 - `options` - The object containing options for the QR code generator, defaults to `{ minVersion: 1, maxVersion: 40, mask: -1, boostEcl: true, ecl: 'M' }`
