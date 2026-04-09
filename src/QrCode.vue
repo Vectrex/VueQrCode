@@ -45,6 +45,7 @@
       xmlns="http://www.w3.org/2000/svg"
       :viewBox="'0 0 ' + totalSize + ' ' + totalSize" :width="totalSize" :height="totalSize"
       :class="attrs.class"
+      :style="attrs.style"
   >
     <rect width="100%" height="100%" fill="white" />
     <path v-if="svgAsPath" :d="path" fill="black" />

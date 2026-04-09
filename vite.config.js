@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: ['src/lib.js'],
-      name: 'qrCodeGenerator',
-      fileName: format => `qrcg.${format}.js`,
+      name: 'VueQrCode',
+      fileName: format => `vqrc.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],
